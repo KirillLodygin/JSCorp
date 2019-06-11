@@ -1,0 +1,110 @@
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.sp1 {
+    color:  #0eb8cc;
+}
+
+.sp2 {
+    color:  #63666b;
+}
+
+.sp3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.sp4 {
+    font-weight: 500;
+}
+
+.founder {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.line_block {
+    grid-column: span 6;
+    margin-bottom: 5vw;
+}
+
+.line {
+    background-color:  #63666c;
+    width: 18.1vw;
+    height: 1px;
+    margin: 3.5vw auto 0;
+}
+
+.btn {
+    border-radius: 10px;
+    border-color: transparent;
+    background-color:  #0eb8cc;
+    padding: 13px 27px 12px;
+    color:  #ffffff;
+    font-size: 0.7em;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fab {
+    color:  #ffffff;
+}
+
+.fa-bars {
+    background-color: #55585e;
+    font-size: 30px;
+}
+
+.vk {
+    background-color:  #4a76a8;
+}
+
+.tel {
+    background-color:  #41b4e6;
+}
+
+.in {
+    background-color:  #0084b1;
+}
+
+.vk, .tel, .in {
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 467px) {
+    h1 {
+        font-size: 1.5rem;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+
+}
